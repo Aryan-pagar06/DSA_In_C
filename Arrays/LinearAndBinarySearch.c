@@ -69,6 +69,7 @@ int main ()
    break;
      case 2: 
         printf("Enter sorted array ");
+        printf("\n");
         accept ( arr,  size);
         printf("Array is = ");
         display(arr, size);
