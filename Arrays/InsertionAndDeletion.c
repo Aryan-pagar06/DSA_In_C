@@ -59,7 +59,7 @@ int main ()
         display(arr, size);
         break;
         case 2:
-        printf("Enter the position you want to delete the element=");
+        printf("Enter the position of the element you want to delete =");
         scanf("%d",&position);
         size = deletion(arr,size,position);
         printf("Array is = ");
